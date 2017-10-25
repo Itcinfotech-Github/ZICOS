@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Demo.Selenium.AppTest"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Demo.Selenium.BookTicket">
+        <methods>
+          <include name="bookTicket"/>
+          <include name="bookHotel"/>
+        </methods>
+      </class> <!-- Demo.Selenium.BookTicket -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
