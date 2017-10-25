@@ -42,8 +42,7 @@ public class AppTest implements ITestListener {
 	}
 
 	public void onTestSuccess(ITestResult arg0) {
-		// TODO Auto-generated method stub
-		
+System.out.println("Tet success");		
 	}
 	
 }
