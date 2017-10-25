@@ -22,6 +22,7 @@ public class AnotationsPractice {
 	public void beforeClass() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\22706\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
+		
 	}
 	
 	@Test(dataProvider="provideData")
